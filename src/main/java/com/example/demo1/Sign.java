@@ -107,13 +107,26 @@ public class Sign extends Application {
         ChoiceBox<String> membershipTypeChoice = new ChoiceBox<>();
         membershipTypeChoice.getItems().addAll("Monthly", "Yearly");
 
-        formGrid.add(new Label("Name:"), 0, 0); formGrid.add(nameField, 1, 0);
-        formGrid.add(new Label("Date of Subscription:"), 0, 1); formGrid.add(datePicker, 1, 1);
-        formGrid.add(new Label("Gender:"), 0, 2); formGrid.add(genderBox, 1, 2);
-        formGrid.add(new Label("Activity:"), 0, 3); formGrid.add(activityChoice, 1, 3);
-        formGrid.add(new Label("Address:"), 0, 4); formGrid.add(addressField, 1, 4);
-        formGrid.add(new Label("Days per week:"), 0, 5); formGrid.add(daysSlider, 1, 5);
-        formGrid.add(new Label("Membership Type:"), 0, 6); formGrid.add(membershipTypeChoice, 1, 6);
+        formGrid.add(new Label("Name:"), 0, 0);
+        formGrid.add(nameField, 1, 0);
+
+        formGrid.add(new Label("Date of Subscription:"), 0, 1);
+        formGrid.add(datePicker, 1, 1);
+
+        formGrid.add(new Label("Gender:"), 0, 2);
+        formGrid.add(genderBox, 1, 2);
+
+        formGrid.add(new Label("Activity:"), 0, 3);
+        formGrid.add(activityChoice, 1, 3);
+
+        formGrid.add(new Label("Address:"), 0, 4);
+        formGrid.add(addressField, 1, 4);
+
+        formGrid.add(new Label("Days per week:"), 0, 5);
+        formGrid.add(daysSlider, 1, 5);
+
+        formGrid.add(new Label("Membership Type:"), 0, 6);
+        formGrid.add(membershipTypeChoice, 1, 6);
 
         Button submitButton = new Button("Add Member");
         formGrid.add(submitButton, 1, 7);
@@ -222,3 +235,4 @@ public class Sign extends Application {
     }
 }
 //test
+//test2
