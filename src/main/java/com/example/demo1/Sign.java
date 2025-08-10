@@ -234,6 +234,3 @@ public class Sign extends Application {
         public String getMembershipType() { return membershipType; }
     }
 }
-//test
-//test2
-//test3
